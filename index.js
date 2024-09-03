@@ -2,7 +2,10 @@ let myVar = 45;
 
 console.log(myVar);
 
+let counter = 0;
+
 $(document).ready(function() {
+
   $('#mySpan').on('click', function() {
       console.log("Hello, World!");
   });
@@ -19,6 +22,17 @@ $(document).ready(function() {
         console.log("Error");
       }
     });
+  });
+
+  const btnAdd = $('#setToStorage');
+  const btnPrint = $('#printFromStorage');
+
+  btnAdd.on('click', () => {
+    sessionStorage.setItem("storage" + counter, counter);
+  });
+
+  btnPrint.on('click', () => {
+    console.log(Object.keys(sessionStorage));
   });
 
 });
