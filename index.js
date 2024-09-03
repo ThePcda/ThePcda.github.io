@@ -6,6 +6,21 @@ $(document).ready(function() {
   $('#mySpan').on('click', function() {
       console.log("Hello, World!");
   });
+
+  $('#mySecondSpan').on('click', function() {
+    $.ajax({
+      type: 'GET',
+      url: 'https://jsonplaceholder.org/posts',
+      success: function(res) {
+        console.log("Success");
+        console.log(res);
+      },
+      error: function() {
+        console.log("Error");
+      }
+    });
+  });
+
 });
 
 fetch("./index.json")
