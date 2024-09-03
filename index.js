@@ -4,4 +4,4 @@ const mySpan = document.getElementById("mySpan");
 
 document.addEventListener("click", function() {
   mySpan.innerHTML = "Clicked!";
-}
+});
