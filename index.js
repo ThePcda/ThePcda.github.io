@@ -2,8 +2,10 @@ let myVar = 45;
 
 console.log(myVar);
 
-$('#mySpan').on('click', function() {
-  console.log("Hello, World!");
+$(document).ready(function() {
+  $('#mySpan').on('click', function() {
+      console.log("Hello, World!");
+  });
 });
 
 fetch("./index.json")
