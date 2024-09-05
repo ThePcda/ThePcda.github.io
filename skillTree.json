@@ -1,0 +1,10 @@
+[
+    {
+        "key": "testSkillTree",
+        "name": "Test Skilltree",
+        "skills": [
+            "testSkill",
+            "testSkill2"
+        ]
+    }
+]

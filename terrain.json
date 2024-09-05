@@ -1,0 +1,11 @@
+[
+    {
+        "key": "grass",
+        "name": "Grass",
+        "terrain": [
+            "FOREST",
+            "MOUNTAIN"
+        ],
+        "image": "image"
+    }
+]
