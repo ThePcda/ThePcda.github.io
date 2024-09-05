@@ -1,0 +1,88 @@
+[
+    {
+        "key": "testSkill",
+        "name": "Test Skill",
+        "levelRequirement": 0,
+        "stats": [
+            {
+                "statType": "HP",
+                "percentageHierarchy": "NONE",
+                "value": 15
+            }
+        ],
+        "incrementalStats": [
+            {
+                "statType": "HP",
+                "percentageHierarchy": "PH_0",
+                "value": 2
+            }
+        ],
+        "levelBoundStats": {
+            "5": [
+                {
+                    "statType": "HP",
+                    "percentageHierarchy": "PH_0",
+                    "value": 5
+                }
+            ],
+            "10": [
+                {
+                    "statType": "HP",
+                    "percentageHierarchy": "PH_1",
+                    "value": 5
+                }
+            ],
+            "15": [
+                {
+                    "statType": "HP",
+                    "percentageHierarchy": "PH_2",
+                    "value": 5
+                }
+            ]
+        },
+        "image": "testSkillImage"
+    },
+    {
+        "key": "testSkill2",
+        "name": "Test Skill 2",
+        "levelRequirement": 0,
+        "stats": [
+            {
+                "statType": "WISDOM",
+                "percentageHierarchy": "NONE",
+                "value": 15
+            }
+        ],
+        "incrementalStats": [
+            {
+                "statType": "WISDOM",
+                "percentageHierarchy": "PH_0",
+                "value": 2
+            }
+        ],
+        "levelBoundStats": {
+            "5": [
+                {
+                    "statType": "WISDOM",
+                    "percentageHierarchy": "PH_0",
+                    "value": 5
+                }
+            ],
+            "10": [
+                {
+                    "statType": "WISDOM",
+                    "percentageHierarchy": "PH_1",
+                    "value": 5
+                }
+            ],
+            "15": [
+                {
+                    "statType": "WISDOM",
+                    "percentageHierarchy": "PH_2",
+                    "value": 5
+                }
+            ]
+        },
+        "image": "testSkillImage2"
+    }
+]

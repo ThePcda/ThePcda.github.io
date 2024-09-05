@@ -1,0 +1,50 @@
+[
+    {
+        "key": "swordLv0",
+        "name": "Sword Lv0",
+        "rarity": "COMMON",
+        "levelRequirement": 0,
+        "goldValue": 10,
+        "image": "swordLv0Image",
+        "mainHandType": "SWORD",
+        "strengthScale": "B",
+        "dexterityScale": "C_MINUS",
+        "wisdomScale": "NONE",
+        "stats": [
+            {
+                "statType": "HP",
+                "percentageHierarchy": "NONE",
+                "value": 20
+            },
+            {
+                "statType": "HP",
+                "percentageHierarchy": "PH_0",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "key": "swordLv3",
+        "name": "Sword Lv3",
+        "rarity": "COMMON",
+        "levelRequirement": 3,
+        "goldValue": 20,
+        "image": "swordLv3Image",
+        "mainHandType": "SWORD",
+        "strengthScale": "B_PLUS",
+        "dexterityScale": "C",
+        "wisdomScale": "NONE",
+        "stats": [
+            {
+                "statType": "HP",
+                "percentageHierarchy": "NONE",
+                "value": 25
+            },
+            {
+                "statType": "HP",
+                "percentageHierarchy": "PH_0",
+                "value": 6
+            }
+        ]
+    }
+]

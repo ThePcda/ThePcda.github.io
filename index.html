@@ -8,6 +8,7 @@
 </head>
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="./index.js"></script>
+<script src="./js/custom-tag/itemCard.js"></script>
 <body class="test">
     Hello
     <span class="wow" id="mySpan">My Span</span>
@@ -18,8 +19,11 @@
             Add to storage
         </button>
         <button id="printFromStorage">
-            Print from storage
+            Print to console
         </button>
     </div>
+    <item-card json="./index.json">
+        
+    </item-card>
 </body>
 </html>
