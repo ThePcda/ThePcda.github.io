@@ -1,0 +1,9 @@
+.mce-tinymce {
+    background-color: #333333;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.mce-toolbar {
+    background-color: red;
+}
