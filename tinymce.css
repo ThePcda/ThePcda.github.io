@@ -7,3 +7,7 @@
 .mce-toolbar {
     background-color: red;
 }
+
+.mce-content-body {
+    background-color: yellow;
+}
